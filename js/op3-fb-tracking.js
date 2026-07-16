@@ -1,0 +1,2 @@
+window.addEventListener("scroll",(function e(){if((document.body.scrollTop>50||document.documentElement.scrollTop>50)&&window.OPDashboardPixels&&"1"===window.OPDashboardPixels.enableScrollEvent){var o="OP3_Scroll"+Date.now();OP3Pixels.fireFacebookEvent(o,"Scroll",[]),window.removeEventListener("scroll",e)}})),window.addEventListener("load",(function(){if(window.OPDashboardPixels){var e="OP3_PageView"+Date.now();OP3Pixels.fireFacebookEvent(e,"PageView",[])}}));
+//# sourceMappingURL=op3-fb-tracking.js.map
